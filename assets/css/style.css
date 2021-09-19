@@ -16,6 +16,7 @@ body{
 	background-color: #070520;
 	color: #fff;
 	margin: 0 auto;
+	
 }
 
 main{
@@ -54,6 +55,7 @@ main.contents li.show h2,
 
 .contentsText {
 	text-align: center;
+	margin: 0 auto;
 }
 
 .contentsText h2{
