@@ -70,7 +70,7 @@ $(function(){
 });
 
 $(function(){
-    var effect_pos = -450; // 画面下からどの位置でフェードさせるか(px)
+    var effect_pos = -400; // 画面下からどの位置でフェードさせるか(px)
     var effect_move = 50; // どのぐらい要素を動かすか(px)
     var effect_time = 800; // エフェクトの時間(ms) 1秒なら1000
 
