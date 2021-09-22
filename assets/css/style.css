@@ -62,7 +62,7 @@ main.contents li.show h2,
 	font-size: 50px;
 	font-weight: bold;
 	white-space: nowrap;
-	background-color: rgba(215, 166, 255, 0.8);
+	background-color: #507dda;
 	padding: 10px 20px;
 	line-height: 1.4;
 	letter-spacing: 0.05em;
@@ -145,7 +145,7 @@ main.contents li.show h2,
 			transform: rotate(90deg);
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	fill: #009245;
+	fill: #8ac4cd;
 	width: 12px;
 	height: 24px;
 }
@@ -269,7 +269,7 @@ main.contents li.show h2,
 
 /* ボタンcss */
 button{
-	background:#9212a3;
+	background:#8ac4cd;
 	color:#fff;
 	border:none;
 	position:relative;
@@ -286,7 +286,7 @@ button{
 
 button:hover{
 	background:#070520;
-	color:#9212a3;
+	color:#8ac4cd;
 }
 
 button:before,button:after{
@@ -296,7 +296,7 @@ button:before,button:after{
 	right:0;
 	height:2px;
 	width:0;
-	background: #9212a3;
+	background: #8ac4cd;
 	transition:400ms ease all;
 }
 
