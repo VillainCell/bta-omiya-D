@@ -100,11 +100,20 @@ $(function(){
     });
 });
 
-
+//　再読み込みする時に上に来るようにする
 $(function() {
 	$('html,body').animate({ scrollTop: 0 }, '1');
 });
 
 $(document).ready(function(){
 	$('html,body').animate({ scrollTop: 0 }, '1');
+});
+
+//読み込みが全て完了しているときに表示を開始する
+$(document).ready(function(){
+    console.log('HTML読み込みOK');
+)};
+
+$(window).on('load', function(event) {
+    console.log('ページ内のデータすべて読み込みOK');
 });
