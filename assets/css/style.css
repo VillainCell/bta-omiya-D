@@ -325,3 +325,9 @@ button:hover:before,button:hover:after{
 .bg-color--gray {
 	background-color: #110c55;
 }
+
+/* バグ修正？　*/
+
+#drawer-navigation{ 
+	display:none;
+}
